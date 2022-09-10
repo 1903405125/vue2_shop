@@ -1,0 +1,50 @@
+/* 全局样式表 */
+html,body,#app{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1366px;
+}
+
+/* 设置面包屑的样式 */
+.el-breadcrumb{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+/* 设置卡片的样式 */
+.el-card{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15 ) !important;
+}
+
+/* 设置列表的样式 */
+.el-table{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+/* 设置分页区域的样式 */
+.el-pagination{
+    margin-top:15px;
+}
+
+/* 设置的el-cascader的菜单的高度 */
+/* .el-cascader-menu{height:300px} */
+.el-cascader-menu__list{
+    height:300px
+}
+
+/* 设置的步骤条的样式 */
+.el-steps {
+    margin: 15px 0;
+}
+
+/* 设置的步骤条的文字样式 */
+.el-step_title{
+    font-style: 13px;
+}
+
+/* 设置富文本编辑器的样式 */
+.ql-editor{
+    min-height: 300px;
+}
